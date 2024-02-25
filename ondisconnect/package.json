@@ -4,9 +4,14 @@
   "description": "ondisconnect example for WebSockets on API Gateway",
   "main": "src/app.js",
   "author": "SAM CLI",
+  "type": "module",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.518.0",
+    "@aws-sdk/lib-dynamodb": "^3.518.0"
+  },
   "devDependencies": {
-    "aws-sdk": "^2.1563.0"
+    "@types/node": "^20.11.20",
+    "aws-sdk": "^2.1564.0"
   }
 }
